@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 700px;
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+img {
+  /* width: 50%; */
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000000;
+}
+button {
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  width: 90px;
+  height: 35px;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+}
+span {
+  color: #ffd569;
+}
+@media screen and (min-width: 768px) {
+  .fruit-card {
+    display: flex;
+  }
+}
